@@ -47,9 +47,13 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height:100vh;
 }
 body{
-        background: var(--c-deep-6);
+        background: var(--sm-gray-01);
     }
 blockquote, q {
 	quotes: none;
