@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const base_url = 'https://xmiles.herokuapp.com/'
+const base_url = 'https://xmiles.herokuapp.com'
 
 
 export async function getRequest(node_id: String) {
