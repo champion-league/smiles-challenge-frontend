@@ -1,9 +1,12 @@
 import React from 'react';
+import HelloWorld from './Components/Atoms/HelloWorld';
+import Styles from './Styles'
 
 function App() {
   return (
     <div>
-        <h1>Smiles</h1>
+        <Styles/>
+        <HelloWorld/>
     </div>
   );
 }
