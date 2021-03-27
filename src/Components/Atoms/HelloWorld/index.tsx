@@ -18,7 +18,7 @@ function Index() {
 
   return (
     <Container>
-        <h1>Smiles {data ? data?.Hello : ""}</h1>
+        <h1>Smiles {data?.Hello }</h1>
     </Container>
   );
 }
