@@ -2,8 +2,12 @@ import React, { useState, useEffect } from "react";
 import {getRequest} from "../../../Services"
 import {Container} from './styles';
 
+interface Backend {
+  Hello?: String
+}
+
 function Index() {
-  const [data, setData] = useState();
+  const [data, setData] = useState({Hello:""});
 
   useEffect(() => {
     (async () => {
@@ -14,7 +18,7 @@ function Index() {
 
   return (
     <Container>
-        <h1>Smiles {data ? data : ""}</h1>
+        <h1>Smiles {data ? data?.Hello : ""}</h1>
     </Container>
   );
 }
