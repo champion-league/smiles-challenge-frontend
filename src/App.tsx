@@ -3,6 +3,7 @@ import HelloWorld from './Components/Atoms/HelloWorld';
 import Phone from './Components/Atoms/Phone';
 import TargetBadge from './Components/Atoms/TargetBadge';
 import Styles from './Styles'
+import Logo from './Components/Atoms/Logo'
 
 export enum Type{
   PLANE = "airplanemode_active",
@@ -20,6 +21,7 @@ function App() {
             percent={10}
             type={Type.FOOD}
           />
+          <Logo/>
         </Phone>
     </div>
   );
