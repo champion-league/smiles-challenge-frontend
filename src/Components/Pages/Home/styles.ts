@@ -6,6 +6,7 @@ export const Container = styled.div`
     color: var(--sm-gray-01);
     background-color: var(--sm-orange-02);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 `;

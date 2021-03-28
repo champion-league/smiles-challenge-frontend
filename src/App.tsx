@@ -2,6 +2,7 @@ import React from 'react';
 import Phone from './Components/Atoms/Phone'
 import Styles from './Styles'
 import Routes from './Routes'
+import TopBar from './Components/Atoms/TopBar';
 
 export enum Type{
   PLANE = "airplanemode_active",
@@ -15,6 +16,7 @@ function App() {
     <div>
         <Styles/>
         <Phone>
+          <TopBar/>
           <Routes />
         </Phone>
     </div>

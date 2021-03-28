@@ -34,22 +34,10 @@ export const _nunh3 = css`
   ${_nun};
   font-size: 16px;
   font-weight: ${weight.bold};
-  @media ${mobile.tablet}{
-    font-size: 16px;
-  }
-  @media ${mobile.desktop}{
-      font-size: 16px;
-    }
 `
 export const _nuntext = css`
   ${_nun};
   font-size: 11px;
-  @media ${mobile.tablet}{
-    font-size: 16px;
-  }
-  @media ${mobile.desktop}{
-      font-size: 18px;
-    }
 `
 
 export const _nuntextlittle = css`
