@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-    background-color: var(--sm-orange-03);
+    background-color: var(--sm-orange-01);
     color: var(--sm-gray-01);
     display: flex;
     align-items: center;
@@ -17,4 +18,7 @@ export const Content = styled.div`
     justify-content: center;
     flex:1;
     padding: 0 10px;
+`;
+
+export const BackButton = styled(Link)`
 `;

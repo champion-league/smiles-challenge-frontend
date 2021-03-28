@@ -1,12 +1,18 @@
-import React from "react";
-import {Container} from './styles';
-
+import React from "react"
+import TravelView from "../../Organisms/Views/TravelView"
+import {Container,Content} from './styles'
+import content from '../../../Util/png/detail.png'
 
 function Index(props:any) {
 
   return (
     <Container>
-        TravelDetail
+        <TravelView
+          name="Férias em Recife"
+          milha={250000.0}
+        >
+          <Content src={content}/>
+        </TravelView>
     </Container>
   );
 }
