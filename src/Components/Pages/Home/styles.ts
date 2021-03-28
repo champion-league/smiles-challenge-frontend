@@ -10,3 +10,8 @@ export const Container = styled.div`
     align-items: center;
     justify-content: flex-start;
 `;
+
+export const Content = styled.img`
+    margin:10px;
+    width:  100%;
+`;
