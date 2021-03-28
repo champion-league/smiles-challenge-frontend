@@ -16,14 +16,18 @@ const Colors = createGlobalStyle`
       --sm-orange-03: #FE511C;
       --sm-orange-04: #804A28;
 
-      --sm-purple-01: #74309D;
-      --sm-purple-02: #5B2D8C;
+      --sm-purple-01: #E3D6EB;
+      --sm-purple-02: #74309D;
+      --sm-purple-03: #5B2D8C;
 
-      --sm-yellow-01: #FBDE34;
+      --sm-yellow-01: #FDE6D5;
+      --sm-yellow-02: #FBDE34;
       
-      --sm-magenta-01: #ED008C;
+      --sm-magenta-01: #FBCCE8;
+      --sm-magenta-02: #ED008C;
 
-      --sm-green-01: #219653;
+      --sm-green-01: #D3EADD;
+      --sm-green-02: #219653;
   }
 `;
 
