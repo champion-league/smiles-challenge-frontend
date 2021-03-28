@@ -15,10 +15,10 @@ function Index(props:any) {
         to="home"
         />
         <ActionButton color="var(--sm-orange-01)" title="Criar uma nova Conta"
-        to="login"
+        to="new"
         />
         <ActionButton color="trasparent" title="Cadastrar depois"
-        to="login"
+        to="home"
         />
     </Container>
   );
