@@ -11,6 +11,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     @media ${mobile.tablet}{
         width: 300px;
         height: 600px;
