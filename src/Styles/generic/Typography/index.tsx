@@ -10,7 +10,8 @@ const weight = {
   regular: 400,
   medium: 500,
   semibold: 600,
-  bold: 700
+  bold: 700,
+  black: 900
 };
 
 const _nun = css`
@@ -21,25 +22,13 @@ const _nun = css`
 export const _nunh1 = css`
   ${_nun};
   font-size: 25px;
-  font-weight: ${weight.bold};
-  @media ${mobile.tablet}{
-    font-size: 30px;
-  }
-  @media ${mobile.desktop}{
-      font-size: 35px;
-    }
+  font-weight: ${weight.black};
 `
 
 export const _nunh2 = css`
   ${_nun};
-  font-size: 18px;
-  font-weight: ${weight.bold};
-  @media ${mobile.tablet}{
-    font-size: 20px;
-  }
-  @media ${mobile.desktop}{
-      font-size: 20px;
-    }
+  font-size: 20px;
+  font-weight: ${weight.black};
 `
 export const _nunh3 = css`
   ${_nun};
