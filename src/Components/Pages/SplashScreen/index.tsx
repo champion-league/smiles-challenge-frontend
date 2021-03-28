@@ -1,12 +1,13 @@
-import React from "react";
-import {Container} from './styles';
-
+import React from "react"
+import {Container,Subtitle} from './styles'
+import Logo from '../../Atoms/Logo'
 
 function Index(props:any) {
 
   return (
     <Container>
-        SplashScreen
+        <Logo size={180}/>
+        <Subtitle>Dreammiles</Subtitle>
     </Container>
   );
 }
