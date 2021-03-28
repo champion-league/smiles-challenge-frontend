@@ -17,11 +17,23 @@ function App() {
     <div>
         <Styles/>
         <Phone>
+          <Logo/>
           <TargetBadge 
             percent={10}
+            type={Type.PLANE}
+          />
+          <TargetBadge 
+            percent={20}
             type={Type.FOOD}
           />
-          <Logo/>
+          <TargetBadge 
+            percent={50}
+            type={Type.HOTEL}
+          />
+          <TargetBadge 
+            percent={100}
+            type={Type.ART}
+          />
         </Phone>
     </div>
   );
