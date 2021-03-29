@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import {_nunh3,_nuntext} from '../../../../Styles/generic/Typography'
 
 export const Container = styled.div`
-    background-color: var(--sm-gray-01);
     color: var(--sm-orange-01);
     display: flex;
     flex-direction: column;

@@ -15,3 +15,16 @@ export const Content = styled.img`
     margin:10px;
     width:  100%;
 `;
+
+export const Banner = styled.div`
+    width: 200px;
+`;
+
+export const SectionPlan = styled.div`
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--sm-gray-01);
+    font-weight: bold;
+`;
