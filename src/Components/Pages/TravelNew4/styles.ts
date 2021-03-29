@@ -12,5 +12,5 @@ export const Container = styled.div`
 
 export const Content = styled.img`
     margin:10px;
-    width:  100%;
+    width:  90%;
 `;
