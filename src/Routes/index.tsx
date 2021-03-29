@@ -12,7 +12,7 @@ import Page404 from '../Components/Pages/Page404'
 const Router = () => (
     <Routes>
       <Switch>
-        <Route path="/" component={SplashScreen} exact />
+        <Route path="/" component={Login} exact />
         <Route path="/login" component={Login} exact />
         <Route path="/onboarding" component={Onboarding} exact />
         <Route path="/home" component={Home} exact />
