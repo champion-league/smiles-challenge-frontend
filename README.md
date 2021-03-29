@@ -1,3 +1,7 @@
+# Figma
+- [Project](https://www.figma.com/file/VvzWkxxSFUzB88aQTM2M80/Smiles?node-id=0%3A1)
+- [prototype](https://www.figma.com/proto/VvzWkxxSFUzB88aQTM2M80/Smiles?node-id=21%3A2&viewport=-1865%2C472%2C0.5388400554656982&frame-preset-name=iPhone%2011%20Pro%20%2F%20X&scaling=scale-down&page-id=0%3A1)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
