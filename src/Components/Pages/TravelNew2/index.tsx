@@ -1,9 +1,7 @@
 import React from "react";
 import FormView from "../../Organisms/Views/FormView";
 import {Container,Content} from './styles'
-import content from '../../../Util/png/new.png'
-import ActionButton from "../../Atoms/ActionButton";
-import Space from "../../Atoms/Space";
+import New2Button from '../../Molecules/New2Button'
 
 
 
@@ -15,9 +13,8 @@ function Index(props:any) {
     <Container>
         <FormView
         >
-          <Content src={content}/>
-          <ActionButton title="Avançar" to="new2"/>
-          <Space size={200}/>
+          <New2Button to="new3"/>
+          <New2Button to="new3"/>
         </FormView>
     </Container>
   );
